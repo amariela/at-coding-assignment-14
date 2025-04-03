@@ -29,17 +29,18 @@ h2 {
 }
 
 #heroImg {
-    width: 80%;
+    width: 90%;
+    padding: 50px 0px;
 }
 
 #heroText {
     margin-top: -50px;
-    padding-left: 30vw;
-    text-align: left;
+    /* padding-left: 30vw;
+    text-align: left; */
 }
 
 #navBar {
-    height: 100px;
+    height: 100px;    
 }
 
 @keyframes appear {
@@ -47,6 +48,7 @@ h2 {
         opacity: 0;
         scale: 0.5;
     }
+
     to {
         opacity: 1;
         scale: 1;
@@ -55,7 +57,7 @@ h2 {
 
 .block {
     height: max-content;
-    padding: 100px 0px;
+    padding: 100px 0px 0px 0px;
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 35%;
@@ -63,9 +65,10 @@ h2 {
 
 a.nav-link {
     width: max-content;
-    padding: 0px 5px;
+    padding: 0px 10px;
     font-size: clamp(3rem, 5vw, 7vw);
     transition: color 0.2s ease-in-out;
+    font-weight: 500;
 }
 
 a.nav-link:hover {
@@ -75,13 +78,15 @@ a.nav-link:hover {
 
 
 div.card img {
-    height: 350px;
-    width: 500px;
+    height: clamp(250px, 350px, 400px);
+    width: clamp(300px, 450px, 500px);
+
 }
 
 div.card-img-overlay {
     background: rgba(178, 178, 178, 0.091);
-    backdrop-filter: blur(5px); /* Blur effect */
+    backdrop-filter: blur(5px);
+    /* Blur effect */
     padding: 1rem;
 
 }
