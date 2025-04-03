@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 .App {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -13,7 +17,7 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: clamp(4rem, 10vw, 12vw);
+    font-size: clamp(4rem, 8vw, 10vw);
 }
 
 h2 {
@@ -21,7 +25,7 @@ h2 {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: clamp(3rem, 5vw, 7vw);
+    font-size: clamp(3rem, 6vw, 8vw);
 }
 
 #heroImg {
@@ -50,9 +54,34 @@ h2 {
 }
 
 .block {
-    height: 500px;
-    padding: 50px 0px;
+    height: max-content;
+    padding: 100px 0px;
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 35%;
+}
+
+a.nav-link {
+    width: max-content;
+    padding: 0px 5px;
+    font-size: clamp(3rem, 5vw, 7vw);
+    transition: color 0.2s ease-in-out;
+}
+
+a.nav-link:hover {
+    color: black;
+    background-color: white;
+}
+
+
+div.card img {
+    height: 350px;
+    width: 500px;
+}
+
+div.card-img-overlay {
+    background: rgba(178, 178, 178, 0.091);
+    backdrop-filter: blur(5px); /* Blur effect */
+    padding: 1rem;
+
 }

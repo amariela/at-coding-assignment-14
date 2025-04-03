@@ -12,11 +12,11 @@ function App() {
     <div className="App container-fluid bg-black text-white">
         <Navigation />
         <div className="row flex-column text-center">
-            <Home />
-            <Work />
-            <Skills />
-            <Resources />
-            <DevSetup />
+            <div id="home"><Home /></div>
+            <div id="work"><Work /></div>
+            <div id="skills"><Skills /></div>
+            <div id="resources"><Resources /></div>
+            <div id="devsetup"><DevSetup /></div>
         </div>
     </div>
   );

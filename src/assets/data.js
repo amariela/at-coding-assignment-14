@@ -8,10 +8,19 @@ import project7 from "../assets/project7.webp";
 import project8 from "../assets/project8.webp";
 import project9 from "../assets/project9.webp";
 
+export const LINKS = [
+    { id: "home", name: "home" },
+    { id: "work", name: "work" },
+    { id: "skills", name: "skills" },
+    { id: "resources", name: "resources" },
+    { id: "devSetup", name: "dev setup" },
+  ];
+
 export const ABOUT = [
     {
         id: "Contact",
-        text: "I'm Aena! I'm passionate about good design - both in frontend and backend development. Feel free to reach out below!",
+        title: "I'm Aena!",
+        text: "I'm passionate about good design - both in frontend and backend development. Feel free to reach out below!",
         email: "ateodocio@academic.rrc.ca",
     }
 ];
@@ -87,7 +96,8 @@ export const RESOURCES = [
         summary: "Mastered HTML, CSS and JavaScript from their open-sourced curriculum.",
         imgSrc: project6,
         link: "https://www.theodinproject.com/",
-    }
+    },
+
 ];
 
 export const DEVSETUPS = [
