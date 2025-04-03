@@ -1,5 +1,6 @@
 import heroImg from "../assets/hero.jpg";
 import { ABOUT } from "../assets/data";
+import { FaRegEnvelope } from "react-icons/fa6";
 
 export default function Home() {
     return (
@@ -11,11 +12,12 @@ export default function Home() {
                 </div>
                 <img src={heroImg} alt="Hero by Lorenzo on Unsplash" id="heroImg" className="block" />
                 <div id={ABOUT[0].id}>
-                <h4>{ABOUT[0].title}</h4>
-                <p>
-                    {ABOUT[0].text}
-                </p>
-            </div>
+                    <h4>{ABOUT[0].title}</h4>
+                    <p>{ABOUT[0].text}</p>
+                    <p>
+                        <FaRegEnvelope /> {ABOUT[0].email}
+                    </p>
+                </div>
             </div>
         </>
     )

@@ -14,13 +14,13 @@ export const LINKS = [
     { id: "skills", name: "skills" },
     { id: "resources", name: "resources" },
     { id: "devSetup", name: "dev setup" },
-  ];
+];
 
 export const ABOUT = [
     {
         id: "Contact",
         title: "I'm Aena!",
-        text: "I'm passionate about good design - both in frontend and backend development. Feel free to reach out below!",
+        text: "I'm passionate about good design - both in frontend and backend development. I also have an interest in information security and love to learn new technologies. Outside of development, I love to read and listen to music! Feel free to reach out below.",
         email: "ateodocio@academic.rrc.ca",
     }
 ];
@@ -55,65 +55,65 @@ export const WORKS = [
 export const SKILLS = [
     {
         id: "Backend Development",
-        detail: "",
-        tools: "",
+        detail: "Experienced in building scalable and secure backend systems with authentication, database management, and API integrations.",
+        tools: "Java, Spring, PHP, Ruby on Rails, PostgreSQL, MySQL, Supabase",
     },
     {
         id: "Frontend Development",
-        detail: "",
-        tools: "",
+        detail: "Passionate about creating intuitive, responsive, and visually appealing user interfaces with modern frameworks and libraries.",
+        tools: "React.js, Next.js, JavaScript, TypeScript, Bootstrap, HTML, CSS",
     },
     {
         id: "Testing, Deployment, and Automation",
-        detail: "",
-        tools: "",
+        detail: "Familiar with testing, continuous integration, and deployment strategies for web applications.",
+        tools: "Jest, Cypress, ESLint, JUnit, Husky, Docker, GitHub Actions, Vercel, Supabase",
     },
     {
         id: "Soft Skills",
-        detail: "",
-        tools: "",
+        detail: "Strong communication and collaboration skills, with experience in technical planning, content creation, and troubleshooting technical issues.",
+        tools: "Agile Methodologies, Git, Documentation, Team Collaboration, Project Management, Problem-Solving",
     }
 ];
 
 export const RESOURCES = [
     {
         id: 1,
-        title: "The Unicorn Project by Gene Kim",
-        summary: "Learned about real-life DevOps problems in a large business context.",
+        title: "The Unicorn Project",
+        summary: "This fictional book was written by Gene Kim. I learned about real-life DevOps problems in a large business context. The book explores the challenges faced by IT teams in the real world and emphasizes the importance of collaboration, leadership, and continuous improvement. It also offers insights into modern DevOps practices and the need for a cultural shift in organizations to achieve high performance.",
         imgSrc: project4,
         link: "https://itrevolution.com/product/the-unicorn-project/",
     },
     {
         id: 2,
         title: "Red River College",
-        summary: "Received an extensive education in Full Stack Web Development.",
+        summary: "Received an extensive education in Full Stack Web Development. The program provided a comprehensive understanding of both front-end and back-end technologies, including JavaScript, React, Node.js, and databases. The hands-on projects allowed me to apply what I learned in real-world scenarios, preparing me for the challenges of a full-stack development role.",
         imgSrc: project5,
         link: "https://www.rrc.ca/",
     },
     {
         id: 3,
         title: "The Odin Project",
-        summary: "Mastered HTML, CSS and JavaScript from their open-sourced curriculum.",
+        summary: "Mastered HTML, CSS, and JavaScript from their open-sourced curriculum. The Odin Project is a fantastic resource for self-learners, offering a structured path that covers web development fundamentals and advanced topics. It also emphasizes building projects along the way, which helped solidify my skills and gave me practical experience in full-stack development.",
         imgSrc: project6,
         link: "https://www.theodinproject.com/",
     },
-
 ];
+
 
 export const DEVSETUPS = [
     {
         id: 1,
         title: "Visual Studio Code Setup",
-        detail: "",
+        detail: "I use Visual Studio Code with extensions like Prettier, ESLint, and GitLens to improve productivity and maintain clean code.",
     },
     {
         id: 2,
         title: "Terminal Setup",
-        detail: "",
+        detail: "I use the Zsh terminal with a custom prompt and utilities like Git and Node.js to streamline my development workflow.",
     },
     {
         id: 3,
         title: "Preferred Editor Font",
-        detail: "",
+        detail: "I prefer using the 'Fira Code' font in Visual Studio Code for its clean design and programming ligatures that enhance readability.",
     },
 ];

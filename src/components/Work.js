@@ -8,12 +8,12 @@ export default function Work() {
         <div className="d-flex flex-wrap gap-3 justify-content-center">
             {WORKS.map(work => (
                 
-                <div key={work.id} class="card d-inline-block bg-dark text-white">
-                    <img class="card-img" src={work.imgSrc} alt="Card background" />
-                    <div class="card-img-overlay d-flex flex-column justify-content-center">
-                        <h4 class="card-title"><strong>{work.title}</strong></h4>
-                        <p class="card-text">{work.description}</p>
-                        <p class="card-text">Built with: <br />{work.techList}</p>
+                <div key={work.id} className="card d-inline-block bg-dark text-white">
+                    <img className="card-img" src={work.imgSrc} alt="Card background" />
+                    <div className="card-img-overlay d-flex flex-column justify-content-center">
+                        <h4 className="card-title"><strong>{work.title}</strong></h4>
+                        <p className="card-text">{work.description}</p>
+                        <p className="card-text">Built with: <br />{work.techList}</p>
                         <a href={work.link} target="_blank" rel="noopener noreferrer" className="cardLink text-decoration-none btn text-white fs-2"><FaGithub /></a>
                     </div>
                 </div>
